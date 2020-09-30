@@ -1,0 +1,3 @@
+In the above code nothing applies red, box and border to the ordered list.
+In order to apply the styles you would have to in the <ol> tag add the
+classes to the tag so it would look like <ol class="red box border"></ol>

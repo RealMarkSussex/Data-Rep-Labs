@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>The Garden Company</title>
+    <style>
+        hr {
+            color: green;
+            background-color: green;
+            height: 3px;
+        }
+
+        .appleton {
+            color: green
+        }
+
+        .sampson {
+            color: blue
+        }
+
+        .box {
+            width: 100px;
+            float: left;
+            margin: 0 10px 30px 0;
+        }
+
+        .red {
+            color: red;
+            background: pink;
+        }
+
+        .blue {
+            color: blue;
+            background: lightblue;
+        }
+
+        .green {
+            color: green;
+            background: lightgreen;
+        }
+
+        .border {
+            border: 5px solid black;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" type="text/css" href="taskD.css">
+</head>
+
+<body>
+    <h1 class="cracked">September Best-Sellers</h1>
+    <ol>
+        <li class="sampson">Sampson & Company All-Natural Pesticide</li>
+        <li>Vickers and Vickers Fertilizer Sticks</li>
+        <li class="appleton">Appleton Acres Big Sack of Bulbs, Tulips</li>
+        <li>Jackson and Perkins Climbing Rosebushes</li>
+        <li>Easton Create-Your-Own Paving Stones Kit</li>
+        <li class="appleton">Appleton Acres Big Sack of Bulbs, Daffodils</li>
+        <li class="appleton">Appleton Acres Big Sack of Bulbs, Hyacinths</li>
+        <li class="appleton">Appleton Acres Big Sack of Bulbs, Crocuses</li>
+        <li>Hawthorne Hills Hosta, 3-Pack</li>
+        <li class="sampson">Sampson & Company All-Natural Herbicide</li>
+    </ol>
+    <hr>
+    <p>Copyright &copy; 2012 The Garden Company&trade;<br>
+        No material may be reproduced without written permission
+    </p>
+    <hr>
+    <!--Validation error as nested uls are not allowed but
+    needed for this specific task-->
+    <ul>
+        <li>List 1: Item 1</li>
+        <li>List 1: Item 2</li>
+        <ul>
+            <li>List 2: Item 1</li>
+            <li>List 2: Item 2</li>
+            <ul>
+                <li>List 3: Item 1</li>
+                <li>List 3: Item 2</li>
+            </ul>
+        </ul>
+    </ul>
+    <a href="https://validator.w3.org/#validate_by_input">Validate your html!</a>
+</body>
+
+</html>
