@@ -6,4 +6,4 @@ foo belongs to the namespace B, bar belongs to the namespace C and bas doesn't b
 
 Which namespaces do the attributes qux, quux, and corge belong to?
 
-qux doesn't belong to a namespace, quux belongs to the namespace B and corge belongs to the namespace B
+qux doesn't belong to a namespace, quux belongs to the namespace B and corge belongs to the namespace F

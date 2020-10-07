@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemeOfWork 
-courseID="CSF205" 
-xmlns="http://movies.example" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://movies.example movies.xsd ">
-    <movies>
-        <movie>
-            <title>Ponyo</title>
-            <length>1</length>
-            <year>2010</year>
-            <cast>
-                <role ref="Bob"></role>
-            </cast>
-        </movie>
-        <person id="Bob">
-            <name>Bob</name>
-            <birth>2001-03-14</birth>
-        </person>
-    </movies>
-    <star>
+<movies xmlns="http://movies.example" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://movies.example movies.xsd ">
+    <movie>
+        <title>Ponyo</title>
+        <length>1</length>
+        <year>2010</year>
+        <cast>
+            <role ref="Bob"></role>
+        </cast>
+    </movie>
+    <person id="Bob">
+        <name>Bob</name>
+        <birth>2001-03-14</birth>
+    </person>
+    <star id="bob">
         <name>Cool Bob</name>
         <birth>2001-03-15</birth>
         <award>Great award</award>
     </star>
-</schemeOfWork>
+</movies>
