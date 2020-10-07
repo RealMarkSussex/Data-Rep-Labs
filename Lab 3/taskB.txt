@@ -1,0 +1,12 @@
+Which of the files doc1.xml, doc2.xml, ..., doc5.xml are not well-formed. For each file that is
+not well formed, describe all of the problems. You can validate it using the online tools.
+
+Doc1.xml: Not well formed as on line 4 there is an ampersand which has to be escaped
+
+Doc2.xml: Not well formed as xml documents can't have empty space or comments and the start of the document has to start with <?xml...
+
+Doc3.xml: Not well formed as all the opening tags are capatalised and closing ones are lowercase and xml is case sensitive
+
+Doc4.xml: Not well formed as every p tag is not closed with a </p>
+
+Doc5.xml: This document is well formed however it should include at the start of the document <?xml version="1.0" encoding="UTF-8"?>

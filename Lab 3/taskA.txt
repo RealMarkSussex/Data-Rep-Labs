@@ -1,0 +1,15 @@
+How many recipe elements are included in the file?
+
+5
+
+How many ingredient elements are there for the recipe with ID r104?
+
+8
+
+Which recipes contain composite ingredients?
+
+recipes with id r102, r103, r105
+
+What is the maximum depth of nested elements in the file?
+
+5
