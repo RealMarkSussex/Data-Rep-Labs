@@ -10,9 +10,10 @@
       </head>
       <body>
         <p>Recipes contained in this file:</p>
-        <xsl:for-each select=".//@id">
+        <xsl:for-each select="rcp:recipe">
           <p>
-            <xsl:value-of select="." />
+            <xsl:value-of select="@id" /> -- 
+            <xsl:value-of select="rcp:title" />
           </p>
         </xsl:for-each>
         <table border="1">

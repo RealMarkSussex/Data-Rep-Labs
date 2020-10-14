@@ -1,1 +1,1 @@
-sum(/rcp:collection/rcp:recipe/rcp:ingredient[@name[contains(.,'egg')]]/@amount)
+sum(/rcp:collection/rcp:recipe/rcp:ingredient[@name[contains(.,'egg')]]/@amount) + sum(/rcp:collection/rcp:recipe/rcp:ingredient/rcp:ingredient[@name[contains(.,'egg')]]/@amount) 
