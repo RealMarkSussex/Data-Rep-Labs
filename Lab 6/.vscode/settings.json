@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jdom-2.0.5.jar",
+        "jaxen-1.1.6.jar"
+    ]
+}
