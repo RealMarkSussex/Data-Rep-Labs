@@ -1,0 +1,76 @@
+12-Nov-2019 10:09:39.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+12-Nov-2019 10:09:39.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+12-Nov-2019 10:09:39.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:09:39.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:09:39.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/conf/logging.properties
+12-Nov-2019 10:09:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2019 10:09:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Nov-2019 10:09:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Nov-2019 10:09:39.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:09:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:09:39.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/temp
+12-Nov-2019 10:09:39.063 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rvaidhiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Nov-2019 10:09:39.178 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:09:39.199 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Nov-2019 10:09:39.205 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:09:39.206 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Nov-2019 10:09:39.206 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 524 ms
+12-Nov-2019 10:09:39.233 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2019 10:09:39.233 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+12-Nov-2019 10:09:39.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/webapps/ROOT]
+12-Nov-2019 10:09:39.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/webapps/ROOT] has finished in [295] ms
+12-Nov-2019 10:09:39.536 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:09:39.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:09:39.545 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 338 ms
+12-Nov-2019 10:35:50.239 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+12-Nov-2019 10:35:50.242 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+12-Nov-2019 10:35:50.294 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+12-Nov-2019 10:36:02.564 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12-Nov-2019 10:36:02.564 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:36:02.618 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:36:02.671 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2019 10:36:02.678 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:36:02.684 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:36:02.687 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:36:02.688 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:36:06.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:36:06.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:36:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/conf/logging.properties
+12-Nov-2019 10:36:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2019 10:36:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Nov-2019 10:36:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Nov-2019 10:36:06.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:36:06.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat
+12-Nov-2019 10:36:06.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/temp
+12-Nov-2019 10:36:06.273 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rvaidhiy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Nov-2019 10:36:06.381 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:36:06.396 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Nov-2019 10:36:06.402 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:36:06.403 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Nov-2019 10:36:06.404 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 459 ms
+12-Nov-2019 10:36:06.428 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2019 10:36:06.429 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+12-Nov-2019 10:36:06.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/webapps/ROOT]
+12-Nov-2019 10:36:06.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/rvaidhiy/ownCloud/Degree Apprenticeship Teaching/CSF205 - Data Rep - Markup Langs - Web Services/Labs/L09 Servlets/tomcat/webapps/ROOT] has finished in [310] ms
+12-Nov-2019 10:36:06.749 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2019 10:36:06.756 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+12-Nov-2019 10:36:06.757 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 353 ms
+12-Nov-2019 10:37:26.789 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+12-Nov-2019 10:37:26.790 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+12-Nov-2019 10:37:26.845 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
